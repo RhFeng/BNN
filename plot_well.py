@@ -185,7 +185,7 @@ def plot_well_predict(Y_train, Y_predict, test_loc, test_inc, d,tvd):
         
         # plt.legend(loc='best')
         ax.set_xlabel('Depth (m)',fontsize= 16)
-        ax.set_ylabel('DTC (ns/ft)',fontsize = 16)
+        ax.set_ylabel('DTC (μs/ft)',fontsize = 16)
         
         if i == 0:
             ax.set_ylim([60,80.00001])  #112,140  108,180
